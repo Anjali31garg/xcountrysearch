@@ -1,0 +1,39 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-top: 20px;
+}
+
+input{
+  width: 50vw;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.countryCard {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid rgb(54, 53, 53);
+  border-radius: 10px;
+}
+
+.countryCard > img {
+  width: 100px;
+  height: 100px;
+}
+
+.countryCard > h2 {
+  font-size: medium;
+}
