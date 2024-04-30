@@ -37,7 +37,7 @@ function App() {
       </div>
       <div className="App">
       {filterCountry.map((country)=>(
-        <div className='card' key={country.cca3}>
+        <div className='countryCard' key={country.cca3}>
           <img src={country.flags.png} alt={country.flags.alt}></img>
 
           <h2>{country.name.common}</h2>
